@@ -1,20 +1,23 @@
-
-
 :root {
   font-family: "Open Sans", sans-serif;
-}
 
+}
+body{
+  background-color: #F5F4F0;
+}
 main {
   padding: 88px 80px;
-  
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-weight: bold;
   color: #1B1B1B;
   font-size: 36px;
-  line-height: 0;
-  
+
+
 
 }
 
@@ -29,70 +32,150 @@ h3 {
   text-transform: uppercase;
   color: #E1624F;
   font-size: 16px;
-  line-height: 0;
+
 }
 
- h3 {
-  padding-bottom: 8px;
-}
 
-p{
+
+p {
   color: #333333;
+  font-weight: normal;
+
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 
 img {
   width: 100%;
+  
 }
 
-#tripLocale img {
-margin-top: 40px;
-margin-bottom: 24px;
+#titlePage {
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+#imageDescription {
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+#imageDescription #description {
+  text-align: center;
+  font-style: italic;
+  color: #333333;
+
+}
+
+#divider {
+  height: 1px;
+  width: 100%;
+  background-color: #D9D9D9;
+
+}
+
+#know {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+}
+
+#titleList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#contentCard {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#cardTravel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 48px;
+}
+
+ol #order {
+  color: #1B1B1B;
+  font-weight: bold;
+  margin-left: 28px;
+  font-size: 28px;
+}
+
+ol span {
+  margin-top: 28px;
+  font-weight: bold;
+}
+
+ul {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 24px;
+  padding: 0;
+  list-style-type: disc;
+
+}
+
+[data-type="family"] {
+  color: #E5245E;
+  
+}
+
+[data-type="couples"] {
+  color: #591B98;
+  
+}
+
+[data-type="friends"] {
+  color: #E95E10;
+  
+}
+
+[data-type="history"] {
+  color: #0C51A7;
+  
 }
 
 #description {
   text-align: center;
-  font-style: italic;
   color: #333333;
-  
 }
 
-#divider{
-  height: 1px;
-  width: 100%;
-  background-color: #D9D9D9;
-  margin-top: 40px;
-  margin-bottom: 40px;
+footer {
+  text-align: center;
+  margin-bottom: 48px;
 }
 
-#know {
-  gap: 64px;
-  padding-top: 24px;
-  
-}
-
-#know h3, h2{
-  margin: 0;
-}
-
-#know h2{
-  margin-top: 0;
-}
-
-ol {
-  margin-top: 64px;
-  gap: 48px;
-  padding: 0;
-
-}
-
-ol li{
-  margin-left: 0;
-  font-weight: bold;
-  font-size: 28px;
-}
-
-ul {
-  font-weight: bold;
-  font-size: 16px;
+footer img {
+  width: auto;
+  vertical-align: middle;
 }
