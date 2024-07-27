@@ -1,36 +1,98 @@
+
+
 :root {
   font-family: "Open Sans", sans-serif;
 }
 
 main {
   padding: 88px 80px;
-  gap: 40px;
+  
+}
+
+h1 {
+  font-weight: bold;
+  color: #1B1B1B;
+  font-size: 36px;
+  line-height: 0;
+  
 
 }
 
-h3{
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #E1624F;
-    font-size: 16px;
+h2 {
+  font-weight: bold;
+  color: #1B1B1B;
+  font-size: 32px;
 }
 
-h2{
-        font-weight: bold;
-        color: #E1624F;
-        font-size: 36px;
-
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E1624F;
+  font-size: 16px;
+  line-height: 0;
 }
+
+ h3 {
+  padding-bottom: 8px;
+}
+
+p{
+  color: #333333;
+}
+
 
 img {
+  width: 100%;
+}
 
-    
+#tripLocale img {
+margin-top: 40px;
+margin-bottom: 24px;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  color: #333333;
+  
+}
+
+#divider{
+  height: 1px;
+  width: 100%;
+  background-color: #D9D9D9;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #know {
-    gap: 64px;
+  gap: 64px;
+  padding-top: 24px;
+  
+}
+
+#know h3, h2{
+  margin: 0;
+}
+
+#know h2{
+  margin-top: 0;
 }
 
 ol {
-    gap: 48px;
+  margin-top: 64px;
+  gap: 48px;
+  padding: 0;
+
+}
+
+ol li{
+  margin-left: 0;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 16px;
 }
