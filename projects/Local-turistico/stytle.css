@@ -1,3 +1,36 @@
-:root{
-    font-family: "Open Sans", sans-serif;
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  padding: 88px 80px;
+  gap: 40px;
+
+}
+
+h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+    font-size: 16px;
+}
+
+h2{
+        font-weight: bold;
+        color: #E1624F;
+        font-size: 36px;
+
+}
+
+img {
+
+    
+}
+
+#know {
+    gap: 64px;
+}
+
+ol {
+    gap: 48px;
 }
